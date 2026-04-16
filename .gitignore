@@ -1,0 +1,51 @@
+# macOS
+.DS_Store
+
+# Python bytecode / caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Test / typecheck / lint caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Experiment artifacts / outputs
+runs/
+wandb/
+checkpoints/
+events.out.tfevents*
+
+# Model weights (commonly large)
+*.pt
+*.pth
+*.ckpt
+
+# Assistant / local tooling
+.claude/
+
+# Secrets (keep out of git)
+.env
+.env.*
+WANDB_API_KEY.md
